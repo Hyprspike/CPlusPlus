@@ -1,0 +1,11 @@
+
+*.json
+Tutorial/HelloWorld/.vscode/tasks
+*.plist
+Tutorial/HelloWorld/.vscode/tasks.dSYM/Contents/Resources/DWARF/tasks
+Tutorial/HelloWorld/HelloWorld.dSYM/Contents/Resources/DWARF/HelloWorld
+Tutorial/Loop/DoWhileEg.dSYM/Contents/Resources/DWARF/DoWhileEg
+Tutorial/Loop/GotoExample.dSYM/Contents/Resources/DWARF/GotoExample
+Tutorial/Operators/operator.dSYM/Contents/Resources/DWARF/operator
+Tutorial/Pointer/PointerExample.dSYM/Contents/Resources/DWARF/PointerExample
+Tutorial/String/StringExample.dSYM/Contents/Resources/DWARF/StringExample
