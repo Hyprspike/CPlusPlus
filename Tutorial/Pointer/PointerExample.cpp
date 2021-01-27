@@ -18,10 +18,10 @@ int main(int argc, char const *argv[])
  //cout << sizeof(int) << endl;
 
  // fundamentalPointer();
- // increasePointerAddress();
+ increasePointerAddress();
  // decreasePointerAddress();
  // nullPointer();
- pointerPointToArray();
+ // pointerPointToArray();
  /*
  anArrayOfPinters();
  unsigned long mySecond = 1000;
@@ -85,8 +85,20 @@ void fundamentalPointer()
 void increasePointerAddress()
 {
  printSymbol();
- int var[MAX] = {10, 100, 200};
+ int var[MAX] = {10, 888, 200};
  int *ptr;
+
+ // var++;
+ ptr = var;
+ *var = 40;
+ cout << var[0] << endl;
+
+ // *ptr = 100;
+ // cout << *ptr << endl;
+ ptr++;
+ cout << ptr << endl;  //this is the address of 888
+ cout << *ptr << endl; // this is the value that pointer points to
+ return;
 
  // 指针中的数组地址
  ptr = var;
